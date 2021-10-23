@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container #sidebar {
+  border: 3px solid #0d8b15;
+  position: fixed;
+  left: 0;
+  min-width: 300px;
+  height: 1500px;
+  background-color: #d8ebeb;
+}
+
+.container #sidebar .sidebar-header {
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+}
+
+.container #sidebar ul li {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.container .content {
+  margin-left: 300px;
+  border: 2px solid red;
+}
+/*# sourceMappingURL=style.css.map */
